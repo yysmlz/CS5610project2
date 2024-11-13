@@ -1,0 +1,1 @@
+//这里rules的标签应该是可以用它给的另一个文件里的You can render arrays of components in React. 思想这样css就不用每一行都建标签了，你问问看

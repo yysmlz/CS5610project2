@@ -1,0 +1,3 @@
+/*
+所有css都要import到相应的组件或者页面中，我不知道你还会不会加别的css，所以你统一加import吧我一个没写，比如board中import './Board.css'; 
+*/
