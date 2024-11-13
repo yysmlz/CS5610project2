@@ -2,6 +2,7 @@
 
 import React, { useContext } from 'react';
 import { GameContext } from '../context/GameContext';
+import './resetbutton.css';
 
 const ResetButton = () => {
   const { currentDifficulty, initializeGrid } = useContext(GameContext);

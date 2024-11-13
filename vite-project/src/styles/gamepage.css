@@ -1,0 +1,53 @@
+.gamepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .gamepage header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .gamepage h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  
+  .remaining-mines {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .board {
+    display: grid;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .board .cell {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+  }
+  
+  .cell.unselected {
+    background-color: #bbb;
+  }
+  
+  .cell.selected {
+    background-color: #e0e0e0;
+  }
+  
+  .cell:hover {
+    cursor: pointer;
+    background-color: #d9d9d9;
+  }
+  
