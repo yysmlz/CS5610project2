@@ -1,0 +1,66 @@
+.rules-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .rules-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  .rules-page h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+  }
+  
+  .rules-page p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .rules-page ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .rules-page li {
+    margin-bottom: 8px;
+  }
+  
+  .rules-page strong {
+    color: #4CAF50;
+  }
+  
+  .rules-page section {
+    margin-bottom: 25px;
+  }
+  
+  @media (max-width: 600px) {
+    .rules-page {
+      padding: 15px;
+    }
+  
+    .rules-page h1 {
+      font-size: 2rem;
+    }
+  
+    .rules-page h2 {
+      font-size: 1.5rem;
+    }
+  
+    .rules-page p, .rules-page li {
+      font-size: 1rem;
+    }
+  }
+  

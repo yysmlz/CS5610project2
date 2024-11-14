@@ -1,0 +1,49 @@
+.board {
+    display: grid;
+    gap: 0; 
+    margin: 0 auto;
+    width: fit-content;
+  }
+  
+  .board.easy {
+    grid-template-columns: repeat(8, 30px); 
+    grid-template-rows: repeat(8, 30px);  
+  }
+  
+  .board.medium {
+    grid-template-columns: repeat(16, 30px); 
+    grid-template-rows: repeat(16, 30px);   
+  }
+  
+  .board.hard {
+    grid-template-columns: repeat(30, 30px); 
+    grid-template-rows: repeat(16, 30px); 
+  }
+  
+  .cell {
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .cell.flagged {
+    background-color: #ffeb3b;
+  }
+  
+  .cell.mine {
+    background-color: #e57373;
+  }
+  
+  .cell.revealed {
+    background-color: #eee;
+    border: 1px solid #ddd;
+  }
+  
